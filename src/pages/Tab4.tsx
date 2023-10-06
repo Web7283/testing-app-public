@@ -5,6 +5,10 @@ import './Tab4.css';
 /*button*/
 import { IonButton } from '@ionic/react';
 
+import { IonIcon } from '@ionic/react';
+import { star } from 'ionicons/star';
+
+
 const Tab4: React.FC = () => {
   return (
     <IonPage>
@@ -22,7 +26,7 @@ const Tab4: React.FC = () => {
         <ExploreContainer name="Tab 4 page" />
       <IonButton>
         Default
-        <ion-icon slot="icon-only" icon={star}></ion-icon>
+        <IonIcon slot="icon-only" icon={star}></IonIcon>
       </IonButton>
       </IonContent>
     </IonPage>
