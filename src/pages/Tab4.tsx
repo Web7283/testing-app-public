@@ -2,8 +2,6 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/rea
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab4.css';
 
-import {circle} from ionicons/icons
-
 /*button*/
 import { IonButton } from '@ionic/react';
 
@@ -22,7 +20,10 @@ const Tab4: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <ExploreContainer name="Tab 4 page" />
-      <IonButton icon={circle}>Default</IonButton>
+      <IonButton>
+        Default
+        <ion-icon slot="icon-only" name="circle"></ion-icon>
+      </IonButton>
       </IonContent>
     </IonPage>
   );
