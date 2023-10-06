@@ -2,6 +2,10 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/rea
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab4.css';
 
+
+/*button*/
+import { IonButton } from '@ionic/react';
+
 const Tab4: React.FC = () => {
   return (
     <IonPage>
@@ -17,6 +21,8 @@ const Tab4: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <ExploreContainer name="Tab 4 page" />
+      <IonButton>Default</IonButton>
+      <IonButton disabled={true}>Disabled</IonButton>
       </IonContent>
     </IonPage>
   );
