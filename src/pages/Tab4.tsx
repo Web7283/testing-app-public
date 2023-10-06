@@ -6,7 +6,7 @@ import './Tab4.css';
 import { IonButton } from '@ionic/react';
 
 import { IonIcon } from '@ionic/react';
-import { star } from 'ionicons/star';
+import { star } from 'ionicons/icons';
 
 
 const Tab4: React.FC = () => {
