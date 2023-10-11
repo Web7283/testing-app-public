@@ -1,5 +1,5 @@
 ion-button {
     --color: white;
-    --background-color: black;
-    --border-radius: 50%;
+    --background: black;
+    --border-radius: 100%;
 }
