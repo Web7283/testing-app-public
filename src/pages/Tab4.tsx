@@ -6,7 +6,7 @@ import './Tab4.css';
 import { IonButton } from '@ionic/react';
 
 import { IonIcon } from '@ionic/react';
-import { star } from 'ionicons/icons';
+import { add } from 'ionicons/icons';
 
 
 const Tab4: React.FC = () => {
@@ -24,9 +24,8 @@ const Tab4: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <ExploreContainer name="Tab 4 page" />
-      <IonButton shape="round">
-        Default
-        <IonIcon slot="end" icon={star}></IonIcon>
+      <IonButton>
+        <IonIcon slot="icon-only" icon={add}></IonIcon>
       </IonButton>
       </IonContent>
     </IonPage>
