@@ -24,7 +24,7 @@ const Tab4: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <ExploreContainer name="Tab 4 page" />
-      <IonButton>
+      <IonButton class="add">
         <IonIcon slot="icon-only" icon={add}></IonIcon>
       </IonButton>
       </IonContent>

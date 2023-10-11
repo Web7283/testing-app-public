@@ -1,5 +1,5 @@
-ion-button {
+.add {
     color: white;
     background-color: black;
-    border-radius: 200%;
+    border-radius: 50%;
 }
